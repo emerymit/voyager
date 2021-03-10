@@ -1,2 +1,3 @@
 # voyager
-The stock ticker symbol you didn't need. Period.
+
+The stock ticker symbol you didn't need. Period. Ever.
