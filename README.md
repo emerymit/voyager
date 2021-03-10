@@ -1,2 +1,2 @@
 # voyager
-The stock ticker symbol you didn't need
+The stock ticker symbol you didn't need. Period.
