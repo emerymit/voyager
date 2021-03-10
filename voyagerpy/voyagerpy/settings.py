@@ -27,7 +27,7 @@ SECRET_KEY = 'mfb%b&cs^8@*jedf#pvxe#xcw4u$b&6@16!_x$w_6vv_xa&3ku'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [gethostname(), gethostbyname(gethostname())]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
