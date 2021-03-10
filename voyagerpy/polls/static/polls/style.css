@@ -1,0 +1,15 @@
+li a {
+    color: rgb(238, 240, 238);
+}
+ul {
+    list-style: none;
+  }
+  
+  li::before {
+    content: "• ";
+    color: rgb(255, 254, 254);
+  }
+body {
+    background: white url("images/doge.gif") no-repeat; 
+    background-size: cover;
+}
