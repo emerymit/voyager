@@ -16,7 +16,7 @@ from socket import gethostname, gethostbyname
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+DIRS_PATH = BASE_DIR.joinpath('templates')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
@@ -57,7 +57,7 @@ ROOT_URLCONF = 'voyagerpy.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],
+        'DIRS': DIRS_PATH,
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
